@@ -1,11 +1,11 @@
-Book-Recommendation-System
+**Book-Recommendation-System**
 
 Problem Description
 During the last few decades, with the rise of YouTube, Amazon, Netflix, and many other such web services, recommender systems have taken more and more place in our lives. From e-commerce (suggest to buyers articles that could interest them) to online advertisement (suggest to users the right contents, matching their preferences), recommender systems are today unavoidable in our daily online journeys. By analyzing the problems with ‘Book Recommendation System’ feature, how we can predict the best recommendation for users according to their items approach.
 
 A recommendation system helps an organization to create loyal customers and build trust by them desired products and services for which they came on your site. The recommendation system today is so powerful that they can handle the new customer too who has visited the site for the first time. They recommend the products which are currently trending or highly rated and they can also recommend the products which bring maximum profit to the company. Providing specific data analysis and prediction to done with this data. The main objective is to built a predictive recommender model, which could help in predicting – how we can predict the best recommendation for users according to their items approach. This would help us in providing better recommendation item to a right specific users.
 
-Data Description
+**Data Description**
 We've three dataset -
 
 • Book data – (ISBN, Book-Title, Book-Author, Year-Of-Publication, Publisher, Image-URL-S, Image-URL-M, Image-URL-L)
@@ -16,14 +16,14 @@ We've three dataset -
 
 The users interaction is very vital role for recommendation. To successful build collaborative filtering model in recommender system, data preparation is important. Beginning with book data – dropping URL features (i.e 'Image-URL-S', 'Image-URL-M', 'Image-URL-L'). We have some extra columns which are not required for our task like image URLs. And we rename the columns of each file as the name of the column contains space and lowercase letters so we will correct as to make it easy to use. The features depict great analysis by feature engineering.
 
-Attribute information
+**Attribute information**
 • Book data – (ISBN, Book-Title, Book-Author, Year-Of-Publication, Publisher, Image-URL-S, Image-URL-M, Image-URL-L)
 
 • Users data - (User-ID, Location, Age)
 
 • Ratings data - (User-ID, ISBN, Book-Rating)
 
-Summary of Project
+**Summary of Project**
 A book recommendation system is a type of recommendation system where we have to recommend similar books to the reader based on his interest. We’ve all record and data with three different dataset – Book dataset (ISBN, Book-Title, Book-Author, Year-Of-Publication, Publisher, Image-URL-S, Image-URL-M, Image-URL-L); Users dataset (User-ID, Location, Age); Ratings dataset (User-ID, ISBN, Book-Rating). Providing specific data analysis and prediction to done with this data. The main objective is to build a predictive recommender model, which could help in predicting – how we can predict the best recommendation for users according to their items approach. This would help us in providing better recommendation item to a right specific user.
 
 As the first step, I performed data preparation (i.e data cleaning and feature engineering) and EDA part. The book_data, users_data and ratings_data dataset was an important dataset to gets smaller insights from its. Analysis feature like book_title, book_author, publisher, year_of_publication, age, book_rating were important to get some insights. Some of the null values were present in feature data, we replaced with mean of that particular feature. Deal with mismatch feature like book_title, book_author, year_of_publication, publisher. Only considering age between 5-90 we took users data to analysis and perform recommendation on it.
@@ -37,7 +37,7 @@ Model evaluation metrics is important to distinguish the best collaborative filt
 Machine Learning (Unsupervised) Data Pipeline
 Data Preparation (Data Cleaning and Feature Engineering)
 
-Exploratory Data Analysis
+**Exploratory Data Analysis**
 
 • Univariate Analysis on numeric and categorical features
 
